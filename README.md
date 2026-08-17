@@ -3,13 +3,14 @@ Airbnb Clone (Small-Scale)-"WanderLust"
 A full-stack MVC web application replicating core features of Airbnb. Built with Node.js, Express, MongoDB, and EJS, this application allows users to browse property listings, create and edit their own listings, upload property images, and leave reviews.
 https://vacation-rental-villas.onrender.com   (WanderLust website available here)
 
+---
 Features:-
 * User Authentication & Authorization: Secure signup, login, and route protection using Passport.js.
 * Listing Management (CRUD): Create, view, update, and delete property listings.
 * Review System: Add and delete star ratings and text reviews on property listings.
 * Cloud Image Uploads: Cloudinary integration via Multer for hosting property images.
 * Data Validation: Client-side and server-side schema validations using Joi.
-  
+ --- 
  Tech Stack:-
 * Backend: Node.js, Express.js
 * Database: MongoDB (Mongoose ODM)
@@ -17,7 +18,7 @@ Features:-
 * Authentication: Passport.js (Passport-Local)
 * Storage: Cloudinary, Multer
 * Validation: Joi
-
+---
 ## Project Structure
 
 * **`controllers/`** – Request handlers and core business logic.
