@@ -58,13 +58,13 @@ Open your browser and navigate to http://localhost:8080/listings.
  ---
  
 **Deployment:**
-1.This application is deployed on Render. To deploy your own instance:
-2.Create a Web Service on Render.
-3.Connect your GitHub repository.
-4.Set Build Command to npm install.
-5.Set Start Command to node app.js.
-6.Add all required environment variables (ATLAS_URL, CLOUD_NAME, CLOUD_API_KEY, 7.CLOUD_API_SECRET, SECRET) in the Render environment panel.
-
+* This application is deployed on Render. To deploy your own instance:
+* Create a Web Service on Render.
+* Connect your GitHub repository.
+* Set Build Command to npm install.
+* Set Start Command to node app.js.
+* Add all required environment variables (ATLAS_URL, CLOUD_NAME, CLOUD_API_KEY, 7.CLOUD_API_SECRET, SECRET) in the Render environment panel.
+---
 **Author:**
-1.Akanksha Singh 
-2.**Akankshasingh-14**
+* Akanksha Singh 
+* **Akankshasingh-14**
