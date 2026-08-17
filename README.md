@@ -18,46 +18,53 @@ Features:-
 * Storage: Cloudinary, Multer
 * Validation: Joi
 
-Project Structure:-
-controllers     # Request handlers and business logic.
-init            # Data initialization and sample dataset.
-models          # Mongoose schemas (Listing, Review, User).
-public          # Static files (CSS, client JS, images).
-routes          # Express routes (listings, reviews, users).
-utils           # Helper functions and error handling classes.
-views           # EJS templates and layout files.
-app.js          # Main application file & server setup.
-cloudconfig.js  # Cloudinary configuration.
-middlewear.js   # Custom authentication and permission middleware.
-schema.js       # Joi validation schemas.
+## Project Structure
 
-Setup and Installation:-
-*Clone the repository:-
-  git clone [https://github.com/Akankshasingh-14/Airbnb-small-scale-clone-.git]
-  cd Airbnb-small-scale-clone-
-*Install Dependency:-
-  npm install
-*Configure Environment Variables:-
+* **`controllers/`** – Request handlers and core business logic.
+* **`init/`** – Data initialization scripts and sample dataset.
+* **`models/`** – Mongoose schemas (Listing, Review, User).
+* **`public/`** – Static files (CSS, client-side JS, images).
+* **`routes/`** – Express routes (listings, reviews, users).
+* **`utils/`** – Helper functions and custom error handling classes.
+* **`views/`** – EJS templates and layout files.
+* **`app.js`** – Main application entry point and server setup.
+* **`cloudconfig.js`** – Cloudinary storage configuration.
+* **`middleware.js`** – Custom authentication and permission middleware.
+* **`schema.js`** – Joi schema validations.
+
+---
+
+## Setup and Installation
+
+1. **Clone the repository:**
+   ```bash
+   git clone [https://github.com/Akankshasingh-14/Airbnb-small-scale-clone-.git](https://github.com/Akankshasingh-14/Airbnb-small-scale-clone-.git)
+   cd Airbnb-small-scale-clone-
+2.**Install Dependency:**
+ npm install
+3.**Configure Environment Variables:**
   PORT=8080
   ATLAS_URL=your_mongodb_connection_string
   CLOUD_NAME=your_cloudinary_cloud_name
   CLOUD_API_KEY=your_cloudinary_api_key
   CLOUD_API_SECRET=your_cloudinary_api_secret
   SECRET=your_session_secret_key
-*Intialize Sample Data:-
+4.**Intialize Sample Data:**
    node init/index.js
-*Start the Apllication:-
+5.**Start the Apllication**
     node app.js
 Open your browser and navigate to http://localhost:8080/listings.
 
-Deployment:-
-This application is deployed on Render. To deploy your own instance:
-Create a Web Service on Render.
-Connect your GitHub repository.
-Set Build Command to npm install.
-Set Start Command to node app.js.
-Add all required environment variables (ATLAS_URL, CLOUD_NAME, CLOUD_API_KEY, CLOUD_API_SECRET, SECRET) in the Render environment panel.
+ ---
+ 
+**Deployment:**
+1.This application is deployed on Render. To deploy your own instance:
+2.Create a Web Service on Render.
+3.Connect your GitHub repository.
+4.Set Build Command to npm install.
+5.Set Start Command to node app.js.
+6.Add all required environment variables (ATLAS_URL, CLOUD_NAME, CLOUD_API_KEY, 7.CLOUD_API_SECRET, SECRET) in the Render environment panel.
 
-Author:-
-Akanksha Singh 
-**Akankshasingh-14**
+**Author:**
+1.Akanksha Singh 
+2.**Akankshasingh-14**
