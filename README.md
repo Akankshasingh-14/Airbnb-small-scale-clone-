@@ -19,13 +19,13 @@ Features:-
 * Validation: Joi
 
 Project Structure:-
-controllers/    # Request handlers and business logic.
-init/           # Data initialization and sample dataset.
-models/         # Mongoose schemas (Listing, Review, User).
-public/         # Static files (CSS, client JS, images).
-routes/         # Express routes (listings, reviews, users).
-utils/          # Helper functions and error handling classes.
-views/          # EJS templates and layout files.
+controllers     # Request handlers and business logic.
+init            # Data initialization and sample dataset.
+models          # Mongoose schemas (Listing, Review, User).
+public          # Static files (CSS, client JS, images).
+routes          # Express routes (listings, reviews, users).
+utils           # Helper functions and error handling classes.
+views           # EJS templates and layout files.
 app.js          # Main application file & server setup.
 cloudconfig.js  # Cloudinary configuration.
 middlewear.js   # Custom authentication and permission middleware.
