@@ -36,22 +36,22 @@ Features:-
 
 ## Setup and Installation
 
-1. **Clone the repository:**
+* **Clone the repository:**
    ```bash
    git clone [https://github.com/Akankshasingh-14/Airbnb-small-scale-clone-.git](https://github.com/Akankshasingh-14/Airbnb-small-scale-clone-.git)
    cd Airbnb-small-scale-clone-
-2.**Install Dependency:**
+* **Install Dependency:**
  npm install
-3.**Configure Environment Variables:**
+* **Configure Environment Variables:**
   PORT=8080
   ATLAS_URL=your_mongodb_connection_string
   CLOUD_NAME=your_cloudinary_cloud_name
   CLOUD_API_KEY=your_cloudinary_api_key
   CLOUD_API_SECRET=your_cloudinary_api_secret
   SECRET=your_session_secret_key
-4.**Intialize Sample Data:**
+* **Intialize Sample Data:**
    node init/index.js
-5.**Start the Apllication**
+* **Start the Apllication**
     node app.js
 Open your browser and navigate to http://localhost:8080/listings.
 
