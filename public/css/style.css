@@ -122,3 +122,8 @@ body {
 .review-card{
     border:1px solid grey;
 }
+
+@media (max-width: 768px) {
+.card-img-top { height: 16rem !important; }
+.container { padding-left: 1rem; padding-right: 1rem; }
+}
