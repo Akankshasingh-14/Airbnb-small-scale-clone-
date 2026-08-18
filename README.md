@@ -1,4 +1,8 @@
-Airbnb Clone (Small-Scale)-"WanderLust"
+
+#Airbnb Clone (Small-Scale)-**"WanderLust"**
+
+**Project Demo:**
+https://github.com/user-attachments/assets/f724fb6c-7ff5-47d2-b6c2-d317433b9de4
 
 A full-stack MVC web application replicating core features of Airbnb. Built with Node.js, Express, MongoDB, and EJS, this application allows users to browse property listings, create and edit their own listings, upload property images, and leave reviews.
 https://vacation-rental-villas.onrender.com   (WanderLust website available here)
